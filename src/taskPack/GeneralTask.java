@@ -9,9 +9,9 @@ import java.util.List;
 //General base class for tasks
 public abstract class GeneralTask {
 
-    private static String name;
-    private static String result;
-    private static String input;
+    private String name;
+    private String result;
+    private String input;
 
     public abstract void countResult();
 
@@ -33,7 +33,7 @@ public abstract class GeneralTask {
         this.input = input;
     }
 
-    public static String getResult() {
+    public String getResult() {
         return result;
     }
 
